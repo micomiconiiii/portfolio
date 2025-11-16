@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'main-bg': '#FEFEFE',
+              'nav-text': '#3d3d3d',
+            },
+            fontSize: {
+              'nav': '24pt',
+            },
+            backgroundImage: {
+              'gradient-blur-1': 'linear-gradient(to right, #FFF380, #CA26FF)',
+              'gradient-blur-2': 'linear-gradient(to right, #C2FFD8, #465EFB)',
+              'text-gradient': 'linear-gradient(to right, #465EFB, #CA26FF)',
+              'button-gradient': 'linear-gradient(to right, #E845A3, #C035FF)', // A sample pink/purple gradient for the button
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
