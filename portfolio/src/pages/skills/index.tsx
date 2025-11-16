@@ -1,32 +1,5 @@
     import React, { useState } from 'react';
-    import { motion, AnimatePresence } from 'framer-motion';
-
-    // --- Simple SVG Icons (for titles) ---
-    // No changes here, but 'icon' is no longer used in PillarCard
-    const DesignIcon = () => (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
-    </svg>
-    );
-
-    const CodeIcon = () => (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-    </svg>
-    );
-
-    const LeadershipIcon = () => (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-2.356M17 20H7m10 0v-2c0-.653-.084-1.284-.23-1.88M7 20H2v-2a3 3 0 015.356-2.356M7 20v-2c0-.653.084-1.284.23-1.88m6.54 0A3.001 3.001 0 0012 15c-1.657 0-3 1.343-3 3v.12M12 12a3 3 0 100-6 3 3 0 000 6z" />
-    </svg>
-    );
-
-    const FoundationIcon = () => (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13.5M8.25 6.253l-3.026 2.92c-.406.392-.406 1.022 0 1.414l4.242 4.119M15.75 6.253l3.026 2.92c-.406.392.406 1.022 0 1.414l-4.242 4.119" />
-    </svg>
-    );
-
+    import { motion } from 'framer-motion';
 
     // --- Large SVG Icons (for card backgrounds) ---
     const LargeDesignIcon = () => (
