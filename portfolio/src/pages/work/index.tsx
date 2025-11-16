@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 // Asset Imports
 import SinagPreview from '../../assets/Sinag-preview.png';
-import TuroPreview from '../../assets/Turo-preview.png';
+import TuroPreview from '../../assets/turo-preview.png';
 import Clinident from '../../assets/Clinident.png';
 import Akbai from '../../assets/Akbai.png';
 import Kifikofi from '../../assets/Kifikofi.png';
