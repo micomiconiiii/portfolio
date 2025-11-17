@@ -53,8 +53,12 @@ const LandingPage: React.FC = () => {
     <div className="bg-main-bg font-sans text-nav-text min-h-screen flex flex-col overflow-hidden">
 
       {/* Background Gradient Blobs */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-blur-2 rounded-full opacity-30 blur-[100px] pointer-events-none"></div>
-      <div className="absolute bottom-[-50px] left-1/4 w-96 h-96 bg-gradient-blur-1 rounded-full opacity-50 blur-[100px] pointer-events-none"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-blur-2 rounded-full opacity-30 blur-[100px]"></div>
+      <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-gradient-blur-1 rounded-full opacity-50 blur-[100px]"></div>
+      <div className="absolute top-1/4 left-0 w-72 h-72 bg-gradient-blur-1 rounded-full opacity-20 blur-[90px]"></div>
+      <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-gradient-blur-2 rounded-full opacity-40 blur-[100px]"></div>
+      <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-gradient-blur-1 rounded-full opacity-20 blur-[100px] transform -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute top-0 left-0 w-80 h-80 bg-gradient-blur-2 rounded-full opacity-30 blur-[100px]"></div>
 
       {/* HERO CONTAINER */}
       <div className="relative container mx-auto px-8 md:px-16 flex flex-col min-h-screen">
@@ -89,9 +93,9 @@ const LandingPage: React.FC = () => {
                 View my work
               </NavLink>
 
-              <button className="text-nav-text border border-nav-text font-bold py-3 px-6 rounded-lg bg-transparent">
+              <NavLink to="/contact" className="text-nav-text border border-nav-text font-bold py-3 px-6 rounded-lg bg-transparent">
                 Get in touch
-              </button>
+              </NavLink>
             </div>
           </div>
 

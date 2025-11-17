@@ -207,14 +207,12 @@ const WorkPage = () => {
         <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-gradient-blur-2 rounded-full opacity-40 blur-[100px]"></div>
         <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-gradient-blur-1 rounded-full opacity-20 blur-[100px] transform -translate-x-1/2 -translate-y-1/2"></div>
       <div className="container mx-auto relative">
-        {/* Gradient Heading */}
-        <h2 className="
-          text-4xl font-bold
-          bg-text-gradient bg-clip-text text-transparent
-          text-center mb-12 mt-4
-        ">
-          My Work
-        </h2>
+        <h2
+            className="text-5xl font-bold text-center mb-4 mt-10 bg-clip-text text-transparent"
+            style={{ backgroundImage: 'linear-gradient(to right, #465EFB, #E845A3)' }}
+            >
+            My Work
+            </h2>
 
         {/* --- Filter Buttons --- */}
         <div className="flex justify-center flex-wrap gap-4 mb-12">

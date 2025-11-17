@@ -1,7 +1,6 @@
     import React, { useState } from 'react';
     import { motion } from 'framer-motion';
 
-    // --- Large SVG Icons (for card backgrounds) ---
     const LargeDesignIcon = () => (
     <svg className="w-full h-full" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={0.5} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
@@ -156,14 +155,14 @@
         <div className="absolute top-0 left-0 w-80 h-80 bg-gradient-blur-2 rounded-full opacity-30 blur-[100px]"></div>
 
         <div className="container mx-auto relative">
-            {/* Gradient Heading */}
-            <h2 className="
-            text-4xl font-bold
-            bg-text-gradient bg-clip-text text-transparent
-            text-center mb-4 mt-10
-            ">
-            My Skills & Expertise
+              <h2
+            className="text-5xl font-bold text-center mb-4 mt-10 bg-clip-text text-transparent"
+            style={{ backgroundImage: 'linear-gradient(to right, #465EFB, #E845A3)' }}
+            >
+            My Skills and Expertise
             </h2>
+
+
             <p className="text-center text-lg text-[#3d3d3d] max-w-3xl mx-auto mb-12">
             I love the entire product journey, from the first idea and user research all the way to a fully developed, polished application.
             </p>
