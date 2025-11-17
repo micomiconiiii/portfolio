@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import MicoProfileImage from '../../assets/mico-pxm.jpg'; // <-- 1. Import the image
+import MicoProfileImage from '../../assets/mico-pxm.png';
 
 
 const DownloadIcon = () => (
