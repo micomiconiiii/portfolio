@@ -6,8 +6,8 @@ import SinagPreview from '../../assets/Sinag-preview.png';
 import TuroPreview from '../../assets/turo-preview.png';
 import Clinident from '../../assets/Clinident.png';
 import Akbai from '../../assets/akbai.png';
-import Kifikofi from '../../assets/Kifikofi.png';
-import Pims from '../../assets/Pims.png';
+import Kifikofi from '../../assets/kifikofi.png';
+import Pims from '../../assets/pims.png';
 
 // --- FULL Project Data ---
 const projects = [
